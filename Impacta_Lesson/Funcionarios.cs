@@ -8,10 +8,10 @@ using System.Threading.Tasks;
 namespace Impacta_Lesson
 {
     [BsonIgnoreExtraElements]
-    public class Funcionario
+    public class Funcionarios
     {
         
-        public Funcionario()
+        public Funcionarios()
         {
             Key = Guid.NewGuid().ToString();
             CreatedAt = DateTime.Now;
